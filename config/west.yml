@@ -5,8 +5,8 @@ manifest:
    - name: slicemk
       url-base: https://github.com/slicemk
   projects:
-    - name: slicemk
-      remote: zmkfirmware
+    - name: zmk
+      remote: slicemk
       revision: dongle-pr
       import: app/west.yml
   self:
