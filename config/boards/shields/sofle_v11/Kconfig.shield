@@ -2,7 +2,7 @@ config SHIELD_SOFLE_V11_DONGLE
 	def_bool $(shields_list_contains,sofle_v11_dongle)
 
 config SHIELD_SOFLE_V11_LEFT
-	def_bool $(shields_list_contains,sofle_v11_leftcentral)
+	def_bool $(shields_list_contains,sofle_v11_left)
 
 config SHIELD_SOFLE_V11_RIGHT
-	def_bool $(shields_list_contains,sofle_v11_rightcentral)
+	def_bool $(shields_list_contains,sofle_v11_right)

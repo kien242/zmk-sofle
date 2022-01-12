@@ -14,7 +14,7 @@
 ---
 include:
   - board: nrfmicro_13
-    shield: sofle_v11_rightcentral
+    shield: sofle_v11_right
   - board: nrfmicro_13
     shield: sofle_v11_left
   - board: nrfmicro_13
