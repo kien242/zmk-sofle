@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: nrfmicro_13
+  - board: bluemicro840_v1
     shield: sofle_v11_rightcentral
-  - board: nrfmicro_13
+  - board: bluemicro840_v1
     shield: sofle_v11_leftcentral
-  - board: nrfmicro_13
+  - board: bluemicro840_v1
     shield: sofle_v11_dongle
