@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: mdbt50q_rx
+  - board: nrfmicro_13
     shield: sofle_v11_rightcentral
-  - board: mdbt50q_rx
+  - board: nrfmicro_13
     shield: sofle_v11_leftcentral
-  - board: mdbt50q_rx
+  - board: nrfmicro_13
     shield: sofle_v11_dongle
