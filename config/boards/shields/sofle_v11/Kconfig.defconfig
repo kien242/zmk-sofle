@@ -11,7 +11,7 @@ config ZMK_KEYBOARD_NAME
 
 endif
 
-if SHIELD_SOFLE_V11_LEFTC
+if SHIELD_SOFLE_V11_LEFT
 
 config ZMK_KEYBOARD_NAME
 	default "Sofle v11 Left"
