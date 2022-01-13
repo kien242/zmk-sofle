@@ -8,7 +8,8 @@ if SHIELD_SOFLE_V11_DONGLE
 
 config ZMK_KEYBOARD_NAME
 	default "Sofle v11"
-
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
 endif
 
 if SHIELD_SOFLE_V11_LEFT
@@ -28,9 +29,6 @@ endif
 if SHIELD_SOFLE_V11_DONGLE || SHIELD_SOFLE_V11_LEFT || SHIELD_SOFLE_V11_RIGHT
 
 config ZMK_SPLIT
-	default y
-
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
 endif
